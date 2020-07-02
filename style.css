@@ -1,0 +1,120 @@
+
+html {
+  background: #000;
+  color: #fff;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.header {
+  margin-bottom: 120px;
+}
+
+.header__container {
+  padding: 40px 0px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 3px solid #fff;
+}
+
+.logo {
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.phone {
+  font-size: 40px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.phone:hover {
+  opacity: 0.7;
+}
+
+.content_size_m {
+  max-width: 940px;
+  margin: auto;
+}
+
+.content_size_l {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.text_size_m {
+  font-size: 40px;
+  line-height: 1.4em;
+}
+
+.text_type_p {
+  margin-bottom: 72px;
+}
+
+.subtitle {
+  font-size: 40px;
+  line-height: 1.4px;
+  font-weight: bold;
+  margin-top: 120px;
+  margin-bottom: 32px;
+}
+
+.list {
+  margin-bottom: 120px;
+}
+
+.list__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 0px;
+  border-bottom: 1px solid #fff;
+  text-decoration: none;
+  color: #fff;
+}
+
+.list__name {
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.social__item {
+  font-size: 40px;
+  margin-right: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.social__item:hover {
+  opacity: 0.7;
+}
+
+.mail {
+  font-size: 40px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.mail:hover {
+  opacity: 0.7;
+}
+
+.footer {
+  margin-bottom: 72px;
+  margin-top: 120px;
+}
+
+.footer__container {
+  padding: 40px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/* Стили для мобилки */
+@media (min-width: 320px) and (max-width: 760px) {
+
+}
+
+/* /Стили для мобилки */
