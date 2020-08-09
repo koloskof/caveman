@@ -1,4 +1,3 @@
-
 html {
   background: #000;
   color: #fff;
@@ -114,7 +113,69 @@ html {
 
 /* Стили для мобилки */
 @media (min-width: 320px) and (max-width: 760px) {
+  .logo {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
 
+  .header {
+    margin-bottom: 72px;
+  }
+
+  .list {
+    margin-bottom: 72px;
+  }
+
+  .list__item {
+    padding: 24px 0px;
+  }
+
+  .list__name {
+    font-size: 32px;
+  }
+
+  .phone {
+    font-size: 32px;
+  }
+
+  .mail {
+    font-size: 32px;
+  }
+
+  .subtitle {
+    font-size: 32px;
+  }
+
+  .text_size_m {
+    font-size: 32px;
+    line-height: 1.4em;
+  }
+  
+  .text_type_p {
+    margin-bottom: 48px;
+  }
+
+  .header__container {
+    flex-direction: column;
+  }
+
+  .social {
+    flex-direction: column;
+    margin-bottom: 32px;
+  }
+
+  .social__item {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+
+  .footer {
+    margin-top: 72px;
+  }
+
+  .footer__container {
+    flex-direction: column;
+  }
+  
 }
-
 /* /Стили для мобилки */
